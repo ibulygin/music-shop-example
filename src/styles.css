@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #1E1E1E;
+    font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+.page-container {
+    height: 100%;
+    margin: 0 80px;
+}
+
+.header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav {
+    flex-basis: 506px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-logo {
+    width: 64px;
+    height: 64px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between; 
+    flex-basis: 305px;
+}
+
+.header-actions {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 480px;
+}
+
+.action-contact {
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+}
+
+.action-contact__img {
+    margin-right: 15px;
+    width: 16px;
+    height: 16px;
+}
+
+.action-search {
+    width: 22px;
+    height: 22px;
+}
+
+.action-search__icon {
+    width: 22px;
+    height: 22px;
+}
+
+.action-options {
+    flex-basis: 135px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action-options__item {
+    width: 24px;
+    height: 24px;
+}
+
+@media screen and (max-width: 1250px) {
+    .header-nav {
+        flex-basis: 350px;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-links {
+        display: flex;
+        padding-left: 50px;
+        justify-content: space-between; 
+        flex-basis: 250px;
+    }
+
+    .header-actions {
+        display: flex;
+        justify-content: space-between;
+        flex-basis: 380px;
+    }
+
+    .action-options {
+        flex-basis: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .header {
+        height: 100px;
+        display: flex;
+        align-items: center;
+    }
+
+    .header-nav {
+        flex-basis: 350px;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-links {
+        display: flex;
+        padding-left: 20px;
+        justify-content: space-between; 
+        min-width: 220px;
+    }
+
+    .header-actions {
+        display: flex;
+        margin-left: 50px;
+        justify-content: space-between;
+        min-width: 350px;
+    }
+
+    .action-options {
+        flex-basis: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .action-options {
+        min-width: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .action-contact {
+        min-width: 200px;
+        display: flex;
+        font-size: 18px;
+        align-items: center;
+    }
+}
